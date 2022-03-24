@@ -1,0 +1,63 @@
+JFDML JFormDesigner: "7.0.5.4.420" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp mainPanel::l:::x}"
+			"$verticalGroup": "par l {seq l {comp mainPanel:::p:182:p, space :0:0:x}}"
+		} ) {
+			name: "this"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/appIcon.png" )
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :::p, par t:::p {seq l {comp buttonA:::p:147:p, space s:::p, comp buttonB:::p:147:p}, seq l {comp buttonC:::p:147:p, space s:::p, comp buttonD:::p:147:p}, seq l {comp question:::p:59:p, space :::p, comp questionLabel:::::x}}, space :::p, par l {seq l {comp checkButton::::187:x, space :p:1:p}, comp progressBarGame::l::0:x, comp progressLabel::l::188:x, seq t {space :0:0:x, comp languageBox:::p::p}}, space :::p}}"
+				"$verticalGroup": "par l {seq t {par l {seq {space :::x, par l {comp question:::p:28:p, comp questionLabel:::::x}}, seq {space :::x, comp languageBox:::p::p}}, space u:::p, par t {par b:t {comp buttonA::b:p:43:p, comp buttonB::b:p:43:p}, seq t {comp progressLabel:::p::p, space :::p, comp progressBarGame:::p:19:p}}, space :p:28:p, par b {comp buttonD::b:p:43:p, comp checkButton::b:p:43:p, comp buttonC::b:p:43:p}, space :p:43:p}}"
+			} ) {
+				name: "mainPanel"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonA"
+					"text": "A"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "question"
+					"text": "Question: "
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonB"
+					"text": "B"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonC"
+					"text": "C"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonD"
+					"text": "D"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "checkButton"
+					"text": "check"
+					"enabled": false
+				} )
+				add( new FormComponent( "javax.swing.JProgressBar" ) {
+					name: "progressBarGame"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "progressLabel"
+					"text": "Progres"
+					"horizontalAlignment": 0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "questionLabel"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "languageBox"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 520, 205 )
+		} )
+	}
+}

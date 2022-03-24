@@ -1,0 +1,39 @@
+JFDML JFormDesigner: "7.0.5.4.420" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :::p, par l {comp crct:::p:59:p, comp correctLabel:::::x}, space :p:8:p, par l {comp wrongLabel::::64:x, comp wrng::::64:x}, space :::p}}"
+			"$verticalGroup": "par l {seq l {space :::p, par t {comp crct:::p:49:p, comp wrng:::p:49:p}, space :::p, par l:::p {comp wrongLabel::::43:x, comp correctLabel::::43:x}, space ::14:x}}"
+		} ) {
+			name: "this"
+			"resizable": false
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "crct"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/correct.png" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "wrng"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/incorrect.png" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "correctLabel"
+				"text": "0"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 12, false )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "wrongLabel"
+				"text": "0"
+				"font": #SwingDerivedFont0
+				"horizontalAlignment": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 5 )
+			"size": new java.awt.Dimension( 145, 150 )
+		} )
+	}
+}
