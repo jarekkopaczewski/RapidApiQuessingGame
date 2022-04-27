@@ -12,8 +12,8 @@ Game based on RapidApi.
 ## GUI
 
 <p float="left">
- <img src="https://github.com/jarekkopaczewski/RapidApiQuessingGame/blob/c8ea72ec936f2ea35f3c3fa8321de6ea0601619f/geoTest.png" height="250" hspace="20"/>
- <img src="https://github.com/jarekkopaczewski/RapidApiQuessingGame/blob/c8ea72ec936f2ea35f3c3fa8321de6ea0601619f/geoTest2.png" height="250" hspace="20"/>
+ <img src="https://github.com/jarekkopaczewski/RapidApiQuessingGame/blob/c8ea72ec936f2ea35f3c3fa8321de6ea0601619f/geoTest.png" height="200" hspace="20"/>
+ <img src="https://github.com/jarekkopaczewski/RapidApiQuessingGame/blob/c8ea72ec936f2ea35f3c3fa8321de6ea0601619f/geoTest2.png" height="200" hspace="20"/>
 </p>
 
 ## Built With
