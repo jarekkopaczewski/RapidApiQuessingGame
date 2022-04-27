@@ -23,3 +23,4 @@ Game based on RapidApi.
 ## License
 
 Distributed under the MIT License.
+
